@@ -1,31 +1,22 @@
-.. include:: ../Includes.txt
+.. include:: /Includes.txt
 
 
 .. _extension-installation:
+.. _extension-handling:
 
-======================
-Extension Installation
-======================
+==================
+Extension handling
+==================
 
-.. tip::
 
-   If you have installed TYPO3 with Composer, you should also
-   :ref:`install extensions with Composer <install-extension-with-composer>`.
+.. toctree::
+   :maxdepth: 2
+   :caption: Table of contents
 
-In the context of the TYPO3 extension manager ("EM"), the words "install" and "uninstall" differ from their mainstream
-meaning. To avoid mixing these terms up with the other EM verbs, here is a clarification:
+   Composer/Index
+   WithoutComposer/Index
 
-Import
-  Downloading an extension from TER and copying it to :file:`typo3conf/ext/`.
 
-Install
-  Activating the already imported extension inside the extension manager and performing database changes mandated by the extension.
-
-Uninstall
-  Deactivating an extension, but leaving it on the disk.
-
-Remove
-  Deleting extension files permanently from disk.
 
 .. _install-extension-without-composer:
 
